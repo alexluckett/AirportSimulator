@@ -1,0 +1,26 @@
+Airport Simulator v1.0
+Aston University: CS1410 - Java Program Development
+Group Project: 2013/2014 - Team 15 
+
+Simulate an airport, setting the probability of a commercial flight arriving. Supports different queue types: first in first out & sorting by fuel.
+
+DEVELOPERS:
+Alexander Luckett
+Jason Harrison
+Shahbaz Hussain
+
+USAGE:
+AirportSimulator [-?] [-P ppp] [-S sss] [-Priority | -FIFO] [-D] [-AUTO aaa]
+
+-?        	Shows this help output instead.
+-P        	Set probability. ppp Specifies probability of arrival for Commercial Aircraft ("p").
+-S        	Random seed. To allow for repeatable testing. sss must comply with a java long data type with a 
+          	value from -2^63 to 2^63-1.
+-D        	Display debug output.
+-Priority	Set the arrivals to use the priority system
+-FIFO 		(optional) Set the arrivals to use the first-in-first-out system
+-Auto       Runs the simulation in automatic mode. Will find a given value of P.
+			aaa is the number of times to run the simulation for, taking an average of all good results.
+
+Arguments are not case sensitive.
+If no arguments are specified then the GUI is opened.
